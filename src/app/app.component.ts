@@ -21,8 +21,7 @@ export class AppComponent {
     let calcVal = this.inputValue;
     const negativeNumbers = /-\d+/g;
     if (calcVal.match(negativeNumbers)) {      
-      this.message = "Negative numbers not allowed.";
-      
+      this.message = "Negative numbers not allowed.";      
 
     } else {
       this.message = undefined;
