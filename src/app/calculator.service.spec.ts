@@ -13,6 +13,10 @@ describe('CalculatorService', () => {
   it('It should be generated to add.', () => {
     expect(service).toBeTruthy();
   });
+  
+  it('If input is null, then output should be 0.', () => {
+    expect(service.sumIntegersFromString("")).toEqual(0);
+  });
 
   it('It should add two numbers.', () => {
     expect(service.sumIntegersFromString("2, 3")).toEqual(5);
