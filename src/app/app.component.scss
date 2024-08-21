@@ -1,0 +1,58 @@
+h1 {
+	text-align: center;
+	padding: 23px;
+	background-color: skyblue;
+	color: white;
+	}
+
+#clear{
+width: 270px;
+border: 3px solid gray;
+	border-radius: 3px;
+	padding: 20px;
+	background-color: rgb(241, 153, 81);
+}
+
+.formstyle
+{
+width: 300px;
+height: 530px;
+margin: auto;
+border: 3px solid skyblue;
+border-radius: 5px;
+padding: 20px;
+}
+
+
+
+input
+{
+width: 20px;
+background-color: rgb(85, 85, 85);
+color: white;
+border: 3px solid gray;
+	border-radius: 5px;
+	padding: 26px;
+	margin: 5px;
+	font-size: 15px;
+}
+
+
+#calc{
+width: 250px;
+border: 2px solid rgb(183, 225, 253);
+	border-radius: 3px;
+	padding: 20px;
+	margin: auto;
+}
+#errMessage{
+    width: 250px;
+    background-color: #fff;
+    border: 2px solid rgb(170, 34, 10);
+	border-radius: 3px;
+	padding: 20px;
+	margin: auto;
+    color: #ff0000;
+    margin-bottom: 50px;
+    text-align: center;
+}
